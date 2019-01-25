@@ -70,12 +70,12 @@ function initialize()
 		}	
 	}
 	arToolkitSource.init(function onReady(){
-		copyElementSizeTo()
+		onResizeElement()
 	});
 	
 	// handle resize event
 	window.addEventListener('resize', function(){
-		copyElementSizeTo()
+		onResizeElement()
 	});
 	
 	////////////////////////////////////////////////////////////
